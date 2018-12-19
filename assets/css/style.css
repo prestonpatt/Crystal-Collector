@@ -1,0 +1,35 @@
+.title {
+    background-color: #b27e66;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white; 
+    padding-top: 40px;
+    margin-left: 10px;
+}
+body {
+    background: url(../images/crystalbackground.jpg) 
+}
+.main-body {
+    background-color: #d8b391;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.6;
+    width: 500px;
+    height: 320px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.target-area {
+    background-color: #529ba7;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white; 
+}
