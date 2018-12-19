@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,26 +9,38 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>CrystalsCollector!</title>
 </head>
+
 <body>
     <header class="title">
-<h1>CrystalsCollector!</h1>
+        <h1>CrystalsCollector!</h1>
     </header>
     <br>
     <div class="main-body">
         <p>You will be given a random number at the start of the game.</p>
         <br>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.</p>
         <br>
-        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+        <p>You win the game by matching your total score to the random number, you lose the game if your total score
+            goes above the random number.</p>
         <br>
         <p>The value of each crystal is hidden from you until you click on it.</p>
         <br>
         <p>Each time the game is started, the game will change the values of each crystal.</p>
     </div>
-    <div class="target-area"></div>
-    <div class="scorecard"></div>
-    <div class="crystals"></div>
-    <div class="your-total"></div>
-    <div class="guessed-total"></div>
+    <div class="target-score">
+        <div class="target-area"></div>
+        <div class="scorecard">Wins: Losses:</div>
+    </div>
+    <br>
+    <div class="crystals">
+        <img src="assets/images/1red.png" class="crystal-image" alt="Red Crystal">
+        <img src="assets/images/2blue.png" class="crystal-image" alt="Blue Crystal">
+        <img src="assets/images/3yellow.png" class="crystal-image" alt="Yellow Crystal">
+        <img src="assets/images/4green.png" class="crystal-image" alt="Green Crystal">
+    </div>
+    <div class="your-total">Your total score is:</div>
+    <div class="guessed-total">0</div>
 </body>
+
 </html>
